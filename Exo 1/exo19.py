@@ -1,5 +1,3 @@
-# Écrivez un programme pour représenter un graphe en utilisant un dictionnaire en Python.
-
 def create_graph():
     graph = {
         'A': ['B', 'C'],

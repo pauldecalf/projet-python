@@ -1,4 +1,6 @@
 from exo2 import extract_string_details
+
+
 def test_extract_string_details():
     phrase = "Python est un langage de programmation puissant et facile à apprendre"
     expected_results = {

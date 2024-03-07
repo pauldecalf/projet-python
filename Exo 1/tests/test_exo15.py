@@ -1,9 +1,5 @@
-# teste de # Écrivez un programme qui trouve l'intersection de deux ensembles.
-#
-# def intersection(set1, set2):
-#     return set1 & set2
-
 from exo15 import intersection
+
 
 def test_intersection():
     assert intersection({1, 2, 3}, {2, 3, 4}) == {2, 3}

@@ -1,5 +1,6 @@
 from exo18 import parcourir_bytearray
 
+
 def test_parcourir_bytearray():
     assert parcourir_bytearray(bytearray([1, 2, 3, 4])) == bytearray([2, 3, 4, 5])
     assert parcourir_bytearray(bytearray([0, 0, 0, 0])) == bytearray([1, 1, 1, 1])

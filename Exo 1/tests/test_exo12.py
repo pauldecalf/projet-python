@@ -1,5 +1,6 @@
 from exo12 import count_palindromes
 
+
 def test_count_palindromes():
     assert count_palindromes(["kayak", "tenet", "radar", "level", "rotor"]) == 5, "Should be 5"
     assert count_palindromes(["kayak", "tenet", "radar", "level", "rotor", "hello"]) == 5, "Should be 5"

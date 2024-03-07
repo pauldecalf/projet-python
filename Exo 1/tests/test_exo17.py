@@ -1,9 +1,5 @@
-# teste de # Écrivez un programme qui crée un bytearray à partir d'une liste d'entiers, puis modifie un de ses éléments.
-#
-# def create_bytearray_from_list_of_integers(list_of_integers):
-#     return bytearray(list_of_integers)
-
 from exo17 import create_bytearray_from_list_of_integers
+
 
 def test_create_bytearray_from_list_of_integers():
     assert create_bytearray_from_list_of_integers([1, 2, 3]) == bytearray(b'\x01\x02\x03')

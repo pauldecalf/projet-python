@@ -1,5 +1,3 @@
-#  Implémentez le parcours en profondeur (DFS) sur un graphe représenté par un dictionnaire.
-
 def dfs(graph, start, visited=None):
     if visited is None:
         visited = set()

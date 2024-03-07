@@ -1,5 +1,6 @@
 import random
 
+
 def guess_number_game(max_attempts=10):
     # Génère un nombre aléatoire entre 1 et 100
     number_to_guess = random.randint(1, 100)

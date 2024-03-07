@@ -1,5 +1,6 @@
 from exo19 import create_graph
 
+
 def test_create_graph():
     assert create_graph() == {
         'A': ['B', 'C'],

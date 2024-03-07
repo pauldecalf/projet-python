@@ -1,4 +1,6 @@
 from exo20 import dfs
+
+
 def test_dfs():
     graph = {
         'A': {'B', 'C'},

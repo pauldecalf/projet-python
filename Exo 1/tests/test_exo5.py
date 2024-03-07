@@ -1,5 +1,6 @@
 from exo5 import rotate_right
 
+
 def test_rotate_right():
     # Teste la fonction avec une liste et un nombre
     assert rotate_right([1, 2, 3, 4, 5], 2) == [4, 5, 1, 2, 3], "Should be [4, 5, 1, 2, 3]"

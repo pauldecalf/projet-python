@@ -1,5 +1,6 @@
 from exo9 import print_pyramid
 
+
 def test_print_pyramid(capsys):
     height = 3
     expected_output = "  *\n ***\n*****\n"

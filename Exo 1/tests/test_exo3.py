@@ -1,5 +1,6 @@
 from exo3 import sum_two_numbers
 
+
 def test_sum_two_numbers():
     # Teste la fonction avec deux nombres
     assert sum_two_numbers(1, 2) == 3, "Should be 3"
