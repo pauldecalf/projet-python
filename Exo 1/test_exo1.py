@@ -1,8 +1,7 @@
-def test_function():
-    pass
+def somme(x, y):
+    return x + y
 
 
-def test_function2():
-    pass
-
-# Cette ligne vide représente la nouvelle ligne ajoutée à la fin du fichier.
+def test_somme():
+    assert somme(2, 3) == 5
+    assert somme(1, 1) == 2
