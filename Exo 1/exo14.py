@@ -1,0 +1,4 @@
+# Vous gérez une base de données de produits pour un magasin en ligne, stockée sous forme de dictionnaire. Chaque clé du dictionnaire est l'identifiant du produit (un nombre entier), et chaque valeur est un autre dictionnaire contenant des informations sur le produit, y compris le prix et la quantité en stock. Votre tâche est de générer une liste de produits en rupture de stock (quantité en stock égale à 0) triée par prix, du plus cher au moins cher. Si deux produits ont le même prix, triez-les par leur identifiant en ordre croissant.
+
+def out_of_stock_products(products):
+    return sorted((id, product['price']) for id, product in products.items() if product['quantity'] == 0)
